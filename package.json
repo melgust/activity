@@ -8,7 +8,8 @@
     "serve": "http-server ./dist/frontend",
     "local:prod": "npm run build && npm run serve",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:gh": "ng build --output-path docs --base-href /activity/"
   },
   "private": true,
   "dependencies": {
