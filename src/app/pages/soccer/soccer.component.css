@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}

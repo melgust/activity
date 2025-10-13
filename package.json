@@ -1,11 +1,11 @@
 {
-  "name": "angular-tailwind-frontend",
+  "name": "angular-tailwind-activity",
   "version": "1.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "serve": "http-server ./dist/frontend",
+    "serve": "http-server ./dist/activity",
     "local:prod": "npm run build && npm run serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

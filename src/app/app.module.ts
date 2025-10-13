@@ -9,10 +9,18 @@ import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 
 import { LatestCatsModule } from './components/latest-cats/latest-cats.module';
+import { SoccerComponent } from './pages/soccer/soccer.component';
+import { BasketballComponent } from './pages/basketball/basketball.component';
+import { ChessComponent } from './pages/chess/chess.component';
+import { StandComponent } from './pages/stand/stand.component';
+import { OthersComponent } from './pages/others/others.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ChessComponent,
+    StandComponent,
+    OthersComponent,
   ],
   imports: [
     BrowserModule,

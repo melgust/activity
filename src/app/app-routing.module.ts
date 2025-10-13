@@ -7,12 +7,16 @@ const routes: Routes = [
     loadChildren: () => import('./pages/home/home.module').then((m) => m.HomePageModule),
   },
   {
-    path: 'breed-list',
+    path: 'activity-list',
     loadChildren: () => import('./pages/breed-list/breed-list.module').then((m) => m.BreedListPageModule),
   },
   {
-    path: 'most-searched',
-    loadChildren: () => import('./pages/most-searched/most-searched.module').then((m) => m.MostSearchedPageModule),
+    path: 'soccer',
+    loadChildren: () => import('./pages/soccer/soccer.module').then((m) => m.SoccerModule),
+  },
+  {
+    path: 'basketball',
+    loadChildren: () => import('./pages/basketball/basketball.module').then((m) => m.BasketballModule),
   },
   {
     path: 'cats/:id',
