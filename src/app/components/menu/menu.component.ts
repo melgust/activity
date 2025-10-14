@@ -37,7 +37,8 @@ export class MenuComponent {
     {
       label: 'Fútbol',
       url: '/soccer',
-      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
         <path d="M8.5 6.5L12 10l3.5-3.5M12 10v4M8.5 17.5L12 14l3.5 3.5"/>
         <path d="M6.5 8.5L10 12l-3.5 3.5M14 12l3.5-3.5L14 12l3.5 3.5"/>
       </svg>`,
@@ -54,7 +55,7 @@ export class MenuComponent {
     },
     {
       label: 'Ajedrez',
-      url: '/most-searched',
+      url: '/chess',
       icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M27.78,16.0353a6.3866,6.3866,0,1,0-7.559,0"/>
         <path d="M27.7791,16.0348,32.31,19.0181a8.4613,8.4613,0,0,1-.7678,2.6175H16.4579a8.4613,8.4613,0,0,1-.7678-2.6175l4.5308-2.9833"/>

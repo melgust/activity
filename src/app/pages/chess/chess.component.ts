@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./chess.component.css']
 })
 export class ChessComponent {
+  games: any;
+  showLoader: boolean = true;
 
+  constructor() { }
+
+  ngOnInit(): void {
+    this.showLoader = false;
+  }
 }

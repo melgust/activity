@@ -19,8 +19,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/basketball/basketball.module').then((m) => m.BasketballModule),
   },
   {
-    path: 'cats/:id',
-    loadChildren: () => import('./pages/cats/cats.module').then((m) => m.CatsModule),
+    path: 'chess',
+    loadChildren: () => import('./pages/chess/chess.module').then((m) => m.ChessModule),
   },
 ];
 

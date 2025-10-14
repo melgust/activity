@@ -17,10 +17,7 @@ import { OthersComponent } from './pages/others/others.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ChessComponent,
-    StandComponent,
-    OthersComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
