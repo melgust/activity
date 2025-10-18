@@ -14,6 +14,8 @@ import { BasketballComponent } from './pages/basketball/basketball.component';
 import { ChessComponent } from './pages/chess/chess.component';
 import { StandComponent } from './pages/stand/stand.component';
 import { OthersComponent } from './pages/others/others.component';
+import { JengaComponent } from './pages/jenga/jenga.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 @NgModule({
   declarations: [

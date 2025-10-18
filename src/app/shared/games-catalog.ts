@@ -40,5 +40,19 @@ export const GAMES_CATALOG = [
     imageUrl: 'https://img.opencritic.com/game/194/o/1kabVU4E.jpg',
     description: 'Mejora la concentración, la memoria y el pensamiento estratégico. Ayuda a desarrollar la paciencia y la capacidad para resolver problemas.',
     route: '/programing'
+  },
+  {
+    id: 7,
+    name: 'Jenga',
+    imageUrl: 'https://cdn.pixabay.com/photo/2023/10/05/20/17/jenga-8296929_960_720.jpg',
+    description: 'Desarrolla la coordinación mano-ojo, la precisión y el control motor fino. Fomenta la paciencia, la concentración y la toma de decisiones bajo presión.',
+    route: '/jenga'
+  },
+  {
+    id: 8,
+    name: 'Agenda',
+    imageUrl: 'https://thumbs.dreamstime.com/z/concept-online-schedule-planning-scheduling-work-week-time-management-business-meetings-calendar-flat-vector-concept-169325130.jpg',
+    description: 'Organización y planificación de actividades para el día del evento.',
+    route: '/schedule'
   }
 ];

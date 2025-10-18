@@ -27,6 +27,19 @@ export class MenuComponent {
       title: 'Página inicial'
     },
     {
+      label: 'Agenda',
+      url: '/schedule',
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/>
+        <line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+        <line x1="8" y1="14" x2="16" y2="14"/>
+        <line x1="8" y1="18" x2="12" y2="18"/>
+      </svg>`,
+      title: 'Agenda'
+    },
+    {
       label: 'Actividades',
       url: '/activity-list',
       icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -62,6 +75,22 @@ export class MenuComponent {
         <path d="M27.5287,21.6356c0,9.0738,9.3879,10.4,9.3879,19.1946-1.745,2.19-7.93,2.67-12.9166,2.67s-11.1716-.4794-12.9166-2.67c0-8.7946,9.3879-10.1208,9.3879-19.1946"/>
       </svg>`,
       title: 'Ajedrez'
+    },
+    {
+      label: 'Jenga',
+      url: '/jenga',
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="8" y="20" width="8" height="2"/>
+        <rect x="6" y="18" width="12" height="2"/>
+        <rect x="8" y="16" width="8" height="2"/>
+        <rect x="6" y="14" width="12" height="2"/>
+        <rect x="8" y="12" width="8" height="2"/>
+        <rect x="6" y="10" width="12" height="2"/>
+        <rect x="8" y="8" width="8" height="2"/>
+        <rect x="6" y="6" width="12" height="2"/>
+        <rect x="8" y="4" width="8" height="2"/>
+      </svg>`,
+      title: 'Jenga'
     }
   ];
 

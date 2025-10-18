@@ -22,6 +22,14 @@ const routes: Routes = [
     path: 'chess',
     loadChildren: () => import('./pages/chess/chess.module').then((m) => m.ChessModule),
   },
+  {
+    path: 'jenga',
+    loadChildren: () => import('./pages/jenga/jenga.module').then((m) => m.JengaModule),
+  },
+  {
+    path: 'schedule',
+    loadChildren: () => import('./pages/schedule/schedule.module').then((m) => m.ScheduleModule),
+  }
 ];
 
 @NgModule({
