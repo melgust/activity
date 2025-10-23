@@ -54,5 +54,12 @@ export const GAMES_CATALOG = [
     imageUrl: 'https://thumbs.dreamstime.com/z/concept-online-schedule-planning-scheduling-work-week-time-management-business-meetings-calendar-flat-vector-concept-169325130.jpg',
     description: 'Organización y planificación de actividades para el día del evento.',
     route: '/schedule'
+  },
+  {
+    id: 9,
+    name: 'Stand',
+    imageUrl: 'https://framerusercontent.com/images/A6dlXo380bucz0sB2YXAxZWah8E.jpg',
+    description: 'Espacio de exhibición y demostración de proyectos académicos. Presenta innovaciones tecnológicas y desarrollos estudiantiles.',
+    route: '/stand'
   }
 ];

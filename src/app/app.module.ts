@@ -16,6 +16,8 @@ import { StandComponent } from './pages/stand/stand.component';
 import { OthersComponent } from './pages/others/others.component';
 import { JengaComponent } from './pages/jenga/jenga.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { MinecraftComponent } from './pages/minecraft/minecraft.component';
+import { ProgramingComponent } from './pages/programing/programing.component';
 
 @NgModule({
   declarations: [

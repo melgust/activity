@@ -29,6 +29,18 @@ const routes: Routes = [
   {
     path: 'schedule',
     loadChildren: () => import('./pages/schedule/schedule.module').then((m) => m.ScheduleModule),
+  },
+  {
+    path: 'stand',
+    loadChildren: () => import('./pages/stand/stand.module').then((m) => m.StandModule),
+  },
+  {
+    path: 'programing',
+    loadChildren: () => import('./pages/programing/programing.module').then((m) => m.ProgramingModule),
+  },
+  {
+    path: 'minecraft',
+    loadChildren: () => import('./pages/minecraft/minecraft.module').then((m) => m.MinecraftModule),
   }
 ];
 

@@ -91,6 +91,45 @@ export class MenuComponent {
         <rect x="8" y="4" width="8" height="2"/>
       </svg>`,
       title: 'Jenga'
+    },
+    {
+      label: 'Stand',
+      url: '/stand',
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="12" rx="2"/>
+        <line x1="9" y1="21" x2="15" y2="21"/>
+        <line x1="12" y1="15" x2="12" y2="21"/>
+        <circle cx="8" cy="8" r="1" fill="currentColor"/>
+        <circle cx="16" cy="8" r="1" fill="currentColor"/>
+        <line x1="6" y1="11" x2="18" y2="11"/>
+      </svg>`,
+      title: 'Stand'
+    },
+    {
+      label: 'Programación',
+      url: '/programing',
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <polyline points="16,18 22,12 16,6"/>
+        <polyline points="8,6 2,12 8,18"/>
+        <line x1="12" y1="2" x2="12" y2="22"/>
+      </svg>`,
+      title: 'Programación'
+    },
+    {
+      label: 'Minecraft',
+      url: '/minecraft',
+      icon: `<svg class="mr-4 flex-shrink-0 h-6 w-6 text-cyan-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="2" y="2" width="6" height="6"/>
+        <rect x="9" y="2" width="6" height="6"/>
+        <rect x="16" y="2" width="6" height="6"/>
+        <rect x="2" y="9" width="6" height="6"/>
+        <rect x="9" y="9" width="6" height="6"/>
+        <rect x="16" y="9" width="6" height="6"/>
+        <rect x="2" y="16" width="6" height="6"/>
+        <rect x="9" y="16" width="6" height="6"/>
+        <rect x="16" y="16" width="6" height="6"/>
+      </svg>`,
+      title: 'minecraft'
     }
   ];
 
